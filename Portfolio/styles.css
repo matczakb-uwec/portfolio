@@ -22,7 +22,7 @@ main{
 main h1{
     font-family: 'Cinzel Decorative';
 }
-main h3, p{
+main h2, p{
     font-family: 'Lancelot';
     font-weight: lighter;
 }
@@ -77,7 +77,7 @@ main img{
     text-decoration: underline;
     text-align: center;
 }
-.sunflower h3{
+.sunflower h2{
     text-align: center;
     font-size: 6vw;
 }
@@ -175,4 +175,99 @@ div.scroll-container{
 }
 div.scroll-container img{
     padding: 1px 8px 1px 8px;
+}
+@media (min-width:1000px){
+    .spectator img{
+        width: 80%;
+        justify-self: end;
+    }
+    .photography img{
+        width: 80%;
+    }
+    .spectator div p, a{
+        font-size: 30px;
+    }
+    main h1{
+        font-size: 40px;
+    }
+    .work{
+        font-size: 40px;
+    }
+    .photography div p{
+        font-size: 30px;
+    }
+    .sunflower img{
+        width: 80%;
+        justify-self: center;
+    }
+    main p{
+        font-size: 30px;
+    }
+    .cafe img{
+        width: 80%;
+        justify-self:center;
+    }
+    body{
+        margin: 2rem;
+    }
+    footer h2{
+        font-size: 40px;
+    }
+    footer section div a{
+        font-size: 30px;
+    }
+@media (min-width:1400px){
+    .spectator img{
+        width: 70%;
+        justify-self: end;
+    }
+    .photography img{
+        width: 70%;
+    }
+    .spectator div p, a{
+        font-size: 40px;
+    }
+    main h1{
+        font-size: 50px;
+    }
+    .work{
+        font-size: 50px;
+        margin-top: 4rem;
+    }
+    .photography div p{
+        font-size: 40px;
+    }
+    .sunflower img{
+        width: 70%;
+        justify-self: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    main p{
+        font-size: 40px;
+    }
+    .cafe img{
+        width: 70%;
+        justify-self:center;
+        margin-bottom: 2rem;
+    }
+    body{
+        margin: 5rem;
+    }
+    footer h2{
+        font-size: 50px;
+    }
+    footer section div a{
+        font-size: 40px;
+    }  
+    header nav a{
+        font-size: 30px;
+        padding: .5rem 2rem .5rem 2rem;
+    }  
+    div.scroll-container img{
+        width: 70%;
+        height: auto;
+        padding: 20px;
+    }
+}
 }
